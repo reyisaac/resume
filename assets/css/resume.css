@@ -24,6 +24,10 @@ html {
     text-decoration: none;
     color: inherit;
 }
+.name h4 a {
+    text-decoration: none;
+    color: inherit;
+}
 .name h4 {
     color: #636464;
 }
