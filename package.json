@@ -1,0 +1,26 @@
+{
+  "name": "resume-pdf-generator",
+  "version": "1.0.0",
+  "description": "Professional resume with automated PDF generation using Puppeteer",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "generate": "node generate-pdf.js",
+    "watch": "nodemon --watch index.html --watch assets/ --exec 'npm run generate'",
+    "dev": "npm run watch"
+  },
+  "keywords": [
+    "resume",
+    "pdf",
+    "puppeteer",
+    "automation",
+    "professional"
+  ],
+  "author": "Isaac Reynaldo",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
